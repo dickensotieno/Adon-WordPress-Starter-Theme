@@ -1,0 +1,36 @@
+.adon-option-label {
+  display: inline-block;
+  width: 8em;
+}
+
+div.adon-social-profile > input,
+div.adon-contacts-wrapper > input,
+div.adon-copyright-wrapper > input {
+  width: 30em;
+}
+
+.adon-social-profile-selector-wrapper {
+  margin-top: 5px;
+}
+
+.select-toggle {
+  width: 100%;
+}
+
+.select-toggle option {
+  width: inherit;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+[tooltip]:after {
+  content: ' ('attr(tooltip)')';
+  color: #b3b3b3;
+  transition: all 0.5s ease;
+  pointer-events: none;
+}
+
+[tooltip]:hover:after {
+  color: #000000;
+}
